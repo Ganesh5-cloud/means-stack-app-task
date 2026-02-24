@@ -12,7 +12,7 @@ npm install
 
 You can update the MongoDB credentials by modifying the `db.config.js` file located in `app/config/`.
 
-Run `node server.js`
+Run `node server.js`r
 
 ### Angular Client
 
