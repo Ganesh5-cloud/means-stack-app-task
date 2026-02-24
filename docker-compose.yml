@@ -12,10 +12,10 @@ services:
       - backend
 
   frontend:
-    image: yourdockerhub/frontend-app:latest
+    image: gorliganesh321/frontend-app:1.0
 
   backend:
-    image: yourdockerhub/backend-app:latest
+    image: gorliganesh321/backend-app:1.0
     environment:
       MONGO_URI: mongodb://mongodb:27017/appdb
     depends_on:
